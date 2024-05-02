@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addition</title>
+    <link rel="stylesheet" href="calculatrice.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Addition</h1>
+      <form id="additionForm">
+        <input type="number" id="a" placeholder="A" name="a" />
+        <input type="number" id="b" placeholder="B" name="b" />
+        <input
+          type="number"
+          id="c"
+          placeholder="C"
+          name="c"
+        />
+        <div>
+          <button type="button" onclick="calculate('add')">Calculer</button>
+        </div>
+        <p id="result"></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

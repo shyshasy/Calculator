@@ -1,0 +1,86 @@
+/* calculatrice.css */
+/* Stylisez votre application ici */
+/* form{
+    background-color: rgba(8, 240, 182, 0.89);
+    font-variant: small-caps;
+    text-align: center;
+    background-color: rgba(26, 190, 190, 0.048);
+    text-decoration-style: double;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     width: 600px; *
+} */
+
+body {
+
+    background-color: rgba(32, 16, 16, 0.247);
+    text-transform: lowercase;
+    text-align: center;
+    display: flex;
+    background-image: url('calc.jpg');
+    height: 100vh;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    background-size: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+button {
+    background-repeat: no-repeat;
+    background-color: rgba(25, 211, 218, 0.096);
+    background-image: url(R.jpg);
+    font-variant-numeric: diagonal-fractions;
+    font-style: oblique;
+    border-radius: 1px;
+    padding: 30px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#result {
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: #000;
+}
+#add2{
+    position: relative;
+    top: 100px;
+    right: 560px;
+} 
+#add3{
+    position: relative;
+    right: 455px;
+    top: 82px
+
+}
+#add4{
+    top: 65px;
+    right: 320px;
+    position: relative;
+}
+#add5{
+    position: relative;
+    top: 45Px; 
+    right:110px ;
+}
+
+p{
+    background-color: rgba(0, 0, 0, 0.21);
+    width: 200px;
+    height: 50px;
+    color: white;
+}
